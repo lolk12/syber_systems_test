@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+}
+
+#table {
+  background-color: #fff;
+  width: 400px;
+  height: 400px;
+  display: grid;
+  border-left: 1px solid #333;
+  border-top: 1px solid #333;
+  transform: rotate3d(0, 0, 1, 270deg);
+  margin: auto;
+}
+
+.table-item {
+  border-bottom: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+.table-item_active {
+  background-color: #f6b0b0;
+}
